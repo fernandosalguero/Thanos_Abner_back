@@ -3,24 +3,31 @@ const getMenuFrontEnd = (role = 'USER_ROLE') => {
 
     const menu = [
         {
-          titulo: 'Dashboard',
-          icono: 'mdi mdi-gauge',
+          titulo: 'Jefatura',
+          icono: 'mdi mdi-account',
           submenu: [
-            { titulo: 'Inicio', url: '/' },
-            { titulo: 'KPI', url: 'grafica1' },
-            { titulo: 'Programación', url: 'rxjs' },
-            { titulo: 'Credenciales', url: 'promesas' },
-            { titulo: 'Objetivos', url: 'progress' },
+            { titulo: 'Reportes', url: '/' },
+            { titulo: 'Metricas', url: 'grafica1' },
+
           ]
         },
     
         {
-          titulo: 'Mantenimientos',
-          icono: 'mdi mdi-folder-lock-open',
+          titulo: 'Lideres',
+          icono: 'mdi mdi-human-handsup',
+          submenu: [
+            { titulo: 'Metricas individuales', url: 'rxjs' },
+            { titulo: 'Metricas del equipo', url: 'promesas' },
+            { titulo: 'Programacion', url: 'progress' },
+          ]
+        },
+        {
+          titulo: 'Representantes',
+          icono: 'mdi mdi-human-male-female',
           submenu: [
             // { titulo: 'Usuarios', url: 'usuarios' },
-            { titulo: 'Hospitales', url: 'hospitales' },
-            { titulo: 'Médicos', url: 'medicos' },
+            { titulo: 'Metricas individuales', url: 'hospitales' },
+            { titulo: 'Programacion', url: 'medicos' },
           ]
         },
       ];
