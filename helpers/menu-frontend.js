@@ -16,8 +16,8 @@ const getMenuFrontEnd = (role = 'USER_ROLE') => {
           titulo: 'Lideres',
           icono: 'mdi mdi-human-handsup',
           submenu: [
-            { titulo: 'Metricas individuales', url: 'rxjs' },
-            { titulo: 'Metricas del equipo', url: 'promesas' },
+            { titulo: 'Metricas del equipo', url: 'rxjs' },
+            { titulo: 'Enfoque de calidad', url: 'promesas' },
             { titulo: 'Programacion', url: 'progress' },
           ]
         },
